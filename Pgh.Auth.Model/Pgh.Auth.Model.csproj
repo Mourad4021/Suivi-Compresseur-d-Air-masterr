@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190820104144_V002.cs" />
+    <Compile Remove="Migrations\20190820104256_V002.cs" />
+    <Compile Remove="Migrations\20190820104505_V002.cs" />
+    <Compile Remove="Migrations\20190820105650_V003.cs" />
+    <Compile Remove="Migrations\20190820105957_V003.cs" />
+    <Compile Remove="Migrations\20190820152137_V02.cs" />
+    <Compile Remove="Migrations\20190820152535_v1.cs" />
+    <Compile Remove="Migrations\20190828100625_v012.cs" />
+    <Compile Remove="Migrations\20190905144604_014.cs" />
+    <Compile Remove="Migrations\20190905151909_015.cs" />
+    <Compile Remove="Migrations\20190905151954_015.cs" />
+    <Compile Remove="Migrations\20190905152316_015.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
